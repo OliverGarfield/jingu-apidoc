@@ -1,0 +1,24 @@
+{
+    "name": "jingu/apidoc",
+    "description": "create api doc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouyuguang",
+            "email": "zhouyuguang100@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "phpoffice/phpword":"v0.16.*"
+    },
+    "require-dev": {
+        "phpoffice/phpword":"v0.16.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JinGu\\ApiDoc\\":"src/"
+        }
+    }
+}
