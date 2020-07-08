@@ -20,5 +20,10 @@
         "psr-4": {
             "JinGu\\ApiDoc\\":"src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
